@@ -15,7 +15,7 @@ public class HttpServer {
 
 	public static void main(String args[]) throws Exception {
 		// Set the port number.
-		int port = 7890;
+		int port = 8080;
 		if (args != null && args.length != 0) {
 			try {
 				port = Integer.parseInt(args[0]);
